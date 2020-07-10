@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt Tasks" max_length="40" name="x_58872_needit_needit_tasks" sizeclass="1" type="collection">
+        <element attributes="encode_utf8=false" label="Request" mandatory="true" max_length="32" name="u_request" reference="x_58872_needit_needit" type="reference"/>
+        <element label="Request" max_length="32" name="u_request_id" reference="x_58872_needit_needit" type="reference"/>
+    </element>
+</database>
